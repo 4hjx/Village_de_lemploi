@@ -1,0 +1,8 @@
+#!/bin/bash
+
+declare i
+i=0
+
+while read $(cat fichier.txt);do
+	echo "ligne $(i)"
+done < fichier.txt
